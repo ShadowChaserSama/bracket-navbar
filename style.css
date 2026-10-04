@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.8);
+    border-radius: 20px;
+    gap: 25px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    transition: all 0.2s ease;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 15px;
+    transform: scale(1.05);
+}
+
+.navbar img {
+    width: 10em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btn-phone {
+    background-color: rgb(67, 61, 61);
+    border: whitesmoke solid 2px;
+    color: cadetblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-phone:hover {
+    background-color: rgb(47, 41, 41);
+    transform: scale(1.03);
+}
+
+.btn-phone:active {
+    transform: scale(0.93);
+}
+
+.btn-wp {
+    background-color: rgb(6, 165, 67);
+    border: whitesmoke solid 2px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-wp:hover {
+    background-color: rgb(3, 86, 21);
+    transform: scale(1.03);
+}
+
+.btn-wp:active {
+    transform: scale(0.93);
+}
+
+.btn-kabinent {
+    background-color: rgb(8, 120, 175);
+    border: whitesmoke solid 2px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-kabinent:hover {
+    background-color: rgb(3, 83, 123);
+    transform: scale(1.03);
+}
+
+.btn-kabinent:active {
+    transform: scale(0.93);
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        gap: 5px;
+    }
+
+    .nav-items {
+        gap:5px;
+    }
+}
